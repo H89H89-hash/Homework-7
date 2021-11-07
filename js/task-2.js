@@ -1,0 +1,11 @@
+let arr = [0, 0, 1, 0, 1];
+let text1 = document.querySelector("#text1");
+let text2 = document.querySelector("#text2");
+let text3 = document.querySelector("#text3");
+let text4 = document.querySelector("#text4");
+let text5 = document.querySelector("#text5");
+text1.textContent = arr[0];
+text2.textContent = arr[1];
+text3.textContent = arr[2];
+text4.textContent = arr[3];
+text5.textContent = arr[4];
